@@ -1,0 +1,39 @@
+h1{color:yellow; text-align:center; font-style:Bold; font-size:32pt}
+h2{color:yellow; text-align:center; font-style:Bold; font-size:24pt}
+h3{color:#5D8CA6; text-align:left; font-style:Bold; font-size:18pt}
+p{color:#5D8CA6; font-family:Tahoma; font-size:13pt}
+ul{color:yellow; font-family:Tahoma; font-style:Bold; font-size:14pt}
+
+a {
+	color:#00008B;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+a:hover{
+	color:#F70C0C;
+}
+
+#content {
+	padding: 5px;
+	color:#00008B !important;
+}
+
+#helpbox {
+	position: relative;
+	background-color: #F0E6BE;
+	padding: 5px;
+	height: 120px;
+	color:#00008B;
+	font-weight: bold;
+}
+
+#lefts{
+	width: 20%;
+}
+
+td {
+	padding: 5px;
+    padding-right: 10px;
+}
