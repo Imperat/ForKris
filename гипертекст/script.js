@@ -1,55 +1,74 @@
+
+
 $(function(){
 
 	$("#intonation").mouseenter(function(){
-		$("#helpbox").text("Просодия и интонация");
+		$("#label").text("Просодия и интонация");
+		$("#ololo").attr("src", "ololo1.jpg")
 	});
 
 	$("#intonation").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
 	});
 
 	$("#components").mouseenter(function(){
-		$("#helpbox").text("Компоненты интонации. Вух как интересно!");
+		$("#label").text("Компоненты интонации!");
+		$("#ololo").attr("src", "ololo2.jpg")
 	});
 
 	$("#components").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
 	});
 
 	$("#functionsint").mouseenter(function(){
-		$("#helpbox").text("Функции интонации. Кликай скорее!");
+		$("#label").text("Функции интонации!");
+		$("#ololo").attr("src", "ololo3.jpg")
 	});
 
 	$("#functionsint").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
 	});
 
 	$("#functionspris").mouseenter(function(){
-		$("#helpbox").text("Функции просодии. Очень атмосферные!");
+		$("#label").text("Функции просодии!");
+		$("#ololo").attr("src", "ololo4.jpg")
 	});
 
 	$("#functionspris").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
 	});
 
 	$("#questions").mouseenter(function(){
-		$("#helpbox").text("Не слишком сложные вопросы для таких как ты!");
+		$("#label").text("Попробуй на них ответить!");
+		$("#ololo").attr("src", "ololo5.jpg")
 	});
 
 	$("#questions").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
 	});
 
 	$("#literature").mouseenter(function(){
-		$("#helpbox").text("Список использованной литературы!");
+		$("#label").text("Список литературы!");
+		$("#ololo").attr("src", "ololo6.jpg")
 	});
 
 	$("#literature").mouseleave(function(){
-		$("#helpbox").text("");
+		$("#label").text("");
+	});
+
+		$("#ololo").click(function(){
+		$("#ololo").attr("width", parseInt($("#ololo").attr("width")) + 50)   //attr  Получает или устанавливает значения атрибутов в зависимости от заданных параметров 
+		$("#ololo").attr("height", parseInt($("#ololo").attr("height")) + 50);
+	});
+
+				$("#ololo").mouseleave(function(){
+		$("#ololo").attr("width", 100)   //attr  Получает или устанавливает значения атрибутов в зависимости от заданных параметров 
+		$("#ololo").attr("height", 100);
 	});
 
 });
 
 function hi(){
-	$("#helpbox").text("Автор сего чуда - Метельникова Кристина. Чисто математическая модель атмосферной девчонки!");
+	$("#label").text("Автор проекта - Метельникова Кристина Игоревна");
+		$("#ololo").attr("src", "ololo7.jpg")
 };
